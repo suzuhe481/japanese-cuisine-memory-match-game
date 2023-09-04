@@ -1,0 +1,18 @@
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  font-size: 36px;
+}
+
+/* Styles the elements inside score container */
+.score-container > #correct-icon,
+.score-container > .score,
+.score-container > #incorrect-icon {
+  width: 150px;
+
+  margin: 15px 25px;
+
+  text-align: center;
+}
