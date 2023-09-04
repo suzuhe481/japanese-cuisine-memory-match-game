@@ -1,0 +1,7 @@
+.game-container {
+  background-color: rgb(182, 179, 179);
+  background-size: cover;
+
+  width: auto;
+  height: 100vh;
+}
