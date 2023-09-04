@@ -1,0 +1,17 @@
+/* Styles the title container */
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: red;
+  height: auto;
+
+  padding: 35px;
+}
+
+/* Styles the title's text */
+.title-text {
+  font-size: 42px;
+  font-weight: bold;
+}
