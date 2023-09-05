@@ -1,50 +1,50 @@
 export const cardData = [
   {
-    key: 1,
+    id: 1,
     name: "Takoyaki",
   },
   {
-    key: 2,
+    id: 2,
     name: "Sushi",
   },
   {
-    key: 3,
+    id: 3,
     name: "Ramen",
   },
   {
-    key: 4,
+    id: 4,
     name: "Gyudon",
   },
   {
-    key: 5,
+    id: 5,
     name: "Mitarashi Dango",
   },
   {
-    key: 6,
+    id: 6,
     name: "Yakitori",
   },
   {
-    key: 7,
+    id: 7,
     name: "Natto",
   },
   {
-    key: 8,
+    id: 8,
     name: "Melon Pan",
   },
   {
-    key: 9,
+    id: 9,
     name: "Karaage",
   },
   {
-    key: 10,
+    id: 10,
     name: "Konpeito",
   },
   {
-    key: 11,
+    id: 11,
     name: "Tonkatsu",
   },
   {
-    key: 12,
+    id: 12,
     name: "Taiyaki",
   },
 ];
