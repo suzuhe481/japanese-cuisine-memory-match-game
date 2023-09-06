@@ -7,3 +7,10 @@
 
   margin: 10px 50px;
 }
+
+/* Stylings for mobile screen */
+@media screen and (max-width: 600px) {
+  .cards-container {
+    margin: 5px;
+  }
+}
