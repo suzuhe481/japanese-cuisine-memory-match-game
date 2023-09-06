@@ -1,17 +1,23 @@
+import { useState } from "react";
+
 import Score from "../Score/Score";
 import CardsContainer from "../CardsContainer/CardsContainer";
 
 import "./Game.css";
 
 function Game() {
-  function handleCardClicked(e) {
-    console.log("card was clicked");
-    console.log(e.currentTarget);
-    console.log(e.currentTarget.value);
-    console.log(e.currentTarget.getAttribute("value"));
+  const [cardsPicked, setCardsPicked] = useState([]);
 
-    const cardId = e.currentTarget.getAttribute("value");
-    console.log(typeof cardId);
+  function handleCardClicked(e) {
+    const cardID = e.currentTarget.getAttribute("value");
+
+    if (cardsPicked.includes(cardID)) {
+      setCardsPicked([]);
+      // reset score to 0
+    } else {
+      setCardsPicked([...cardsPicked, cardID]);
+      // Increment score by 1
+    }
   }
 
   return (
