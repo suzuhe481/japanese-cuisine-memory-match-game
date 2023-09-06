@@ -11,18 +11,21 @@ function Game() {
   function handleCardClicked(e) {
     const cardID = e.currentTarget.getAttribute("value");
 
+    // cardsPicked array gets reset to empty if card was picked twice.
     if (cardsPicked.includes(cardID)) {
       setCardsPicked([]);
-      // reset score to 0
-    } else {
-      setCardsPicked([...cardsPicked, cardID]);
-      // Increment score by 1
     }
+    // Adds new cardID if card is newly picked.
+    else {
+      setCardsPicked([...cardsPicked, cardID]);
+    }
+
+    // cardsPicked gets sent to score to calculate score.
   }
 
   return (
     <div className="game-container">
-      <Score />
+      <Score cardsPicked={cardsPicked} />
       <CardsContainer handleCardClicked={handleCardClicked} />
     </div>
   );
