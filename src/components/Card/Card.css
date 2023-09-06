@@ -32,3 +32,15 @@
 
   object-fit: cover;
 }
+
+/* Stylings for mobile screen */
+@media screen and (max-width: 600px) {
+  /* Smaller card */
+  .card {
+    width: 100px;
+  }
+
+  .card > .food-name {
+    font-size: 1r.2em;
+  }
+}
