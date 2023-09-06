@@ -1,7 +1,9 @@
 import "./Score.css";
 
-function Score() {
-  const score = 0;
+function Score({ cardsPicked }) {
+  // console.log("cardsPicked", cardsPicked);
+  const score = cardsPicked.length;
+  // console.log("score", score);
 
   return (
     <div className="score-container">
