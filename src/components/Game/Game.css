@@ -2,6 +2,5 @@
   background-color: rgb(182, 179, 179);
   background-size: cover;
 
-  width: auto;
-  height: 100vh;
+  flex: 0 1 auto;
 }
