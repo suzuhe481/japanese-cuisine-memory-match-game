@@ -10,7 +10,11 @@ function Card(props) {
   const imageUrl = baseImageUrl + id + imageExt;
 
   return (
-    <div className="card">
+    <div
+      className="card"
+      value={id}
+      onClick={(value) => props.handleCardClicked(value)}
+    >
       <div className="food-name">{name}</div>
       <img className="food-image" src={imageUrl}></img>
     </div>
