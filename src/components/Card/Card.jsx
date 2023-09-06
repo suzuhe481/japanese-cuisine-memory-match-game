@@ -4,7 +4,8 @@ function Card(props) {
   const id = props.id;
   const name = props.name;
 
-  const baseImageUrl = "src/assets/cardImages/foodImage";
+  const baseImageUrl = "./assets/cardImages/foodImage";
+
   const imageExt = ".jpg";
 
   const imageUrl = baseImageUrl + id + imageExt;
