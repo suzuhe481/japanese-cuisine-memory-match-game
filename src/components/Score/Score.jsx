@@ -13,8 +13,12 @@ function Score({ cardsPicked, cardCorrect }) {
     correctIcon = "";
     incorrectIcon = "";
   } else {
-    correctIcon = cardCorrect && <i className="fa-solid fa-check fa-beat"></i>;
-    incorrectIcon = !cardCorrect && <i className="fa-solid fa-x fa-shake"></i>;
+    correctIcon = cardCorrect && (
+      <i className="correct-icon fa-solid fa-check fa-beat fa-2x"></i>
+    );
+    incorrectIcon = !cardCorrect && (
+      <i className="incorrect-icon fa-solid fa-x fa-shake fa-2x"></i>
+    );
   }
 
   return (
