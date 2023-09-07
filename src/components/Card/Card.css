@@ -33,6 +33,18 @@
   object-fit: cover;
 }
 
+/* Animates card to grow on hover. */
+.card:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+/* Animates card back to original size. */
+.card {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1);
+}
+
 /* Stylings for mobile screen */
 @media screen and (max-width: 600px) {
   /* Smaller card */
