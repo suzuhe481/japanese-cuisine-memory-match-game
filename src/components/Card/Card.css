@@ -13,7 +13,7 @@
   overflow: hidden;
 
   padding: 5px;
-  margin: 5px;
+  margin: 15px;
 }
 
 /* Styles the card text */
@@ -38,6 +38,7 @@
   /* Smaller card */
   .card {
     width: 100px;
+    margin: 5px;
   }
 
   .card > .food-name {
