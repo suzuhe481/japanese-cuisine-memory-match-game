@@ -10,7 +10,8 @@
 /* Styles the elements inside score container */
 .score-container > #correct-icon,
 .score-container > .score,
-.score-container > #incorrect-icon {
+.score-container > #incorrect-icon,
+.score-container > .win-message {
   width: 150px;
 
   padding: 10px 20px;
@@ -27,4 +28,12 @@
 /* Color for incorrect icon */
 .score-container .incorrect-icon {
   color: red;
+}
+
+.score-container .win-message {
+  text-align: center;
+}
+
+.score-container .hidden {
+  display: none;
 }
