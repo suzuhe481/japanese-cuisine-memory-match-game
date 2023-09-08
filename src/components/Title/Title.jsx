@@ -1,7 +1,7 @@
 import "./Title.css";
 
 function Title() {
-  const titleText = "Memory Match Game - Japanese Cuisine";
+  const titleText = "Memory Game - Japanese Cuisine";
 
   const rulesText =
     "Click each image only once. Make sure to remember them or you'll have to start over.";
