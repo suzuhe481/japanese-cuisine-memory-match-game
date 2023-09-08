@@ -2,6 +2,8 @@
 
 A simple game where the goal is to remember the cards and not pick the same card twice.
 
+[You can try the game by clicking here.](https://japanese-cuisine-memory-match-game.pages.dev/)
+
 ## Description
 
 There are 12 cards of Japanese cuisine, ranging from sweet to savory. You're goal is to click each card only once to win. If you get one wrong, you'll have to start over.
