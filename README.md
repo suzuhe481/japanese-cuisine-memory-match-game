@@ -12,8 +12,12 @@ This project was built using React. I built this to practice React concepts such
 
 ## Releases
 
+### Release 2
+
+- Stops animation for green check or red X after 1 second.
+
 ### Release 1
 
 - Playable on desktop and mobile.
 - Cards expand on hover to show selection.
-- Green check/ Red X is shown to indicate if the user picked a good or bad card.
+- Green check or Red X is shown to indicate if the user picked a good or bad card.
